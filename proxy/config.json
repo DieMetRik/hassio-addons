@@ -8,7 +8,8 @@
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
   "startup": "application",
   "boot": "auto",
-  "ingress": false,
+  "ingress": true,
+  "ingress_port": 1880,
   "panel_admin": false,
   "options": {
     "server": "node-red.local:1880"

@@ -1,3 +1,6 @@
+# 1.0.3
+- correct ingress
+
 # 1.0.1
 
 - second release

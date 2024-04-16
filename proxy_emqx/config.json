@@ -1,0 +1,20 @@
+{
+  "name": "EMQX Proxy",
+  "version": "1.0.0",
+  "url": "https://github.com/DieMetRik/hassio-addons",
+  "panel_icon": "mdi:pipe",
+  "slug": "emqx-proxy",
+  "description": "EMQX is the world's most scalable open-source MQTT broker with a high performance that connects 100M+ IoT devices in 1 cluster, while maintaining 1M message per second throughput and sub-millisecond latency",
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 18083,
+  "panel_admin": false,
+  "options": {
+    "server": "emqx.local:18083"
+  },
+  "schema": {
+    "server": "match(^.+:\\d+$)"
+  }
+}

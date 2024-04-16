@@ -1,6 +1,6 @@
 {
   "name": "Node-RED Proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "url": "https://github.com/node-red/node-red",
   "panel_icon": "mdi:sitemap",
   "slug": "node-red-proxy",
@@ -8,8 +8,7 @@
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
   "startup": "application",
   "boot": "auto",
-  "ingress": true,
-  "ingress_port": 1880,
+  "ingress": false,
   "panel_admin": false,
   "options": {
     "server": "node-red.local:1880"

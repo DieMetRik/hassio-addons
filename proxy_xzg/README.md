@@ -1,15 +1,15 @@
 ![amd64][amd64-shield] ![armv7][armv7-shield] ![aarch64][aarch64-shield] ![armhf][armhf-shield] ![i386][i386-shield]
 
-# EMQX
+# XZG
 
-EMQX is the world's most scalable open-source MQTT broker with a high performance that connects 100M+ IoT devices in 1 cluster, while maintaining 1M message per second throughput and sub-millisecond latency.
+XZG Firmware unifies the best innovations from previous Zigbee gateway projects into a single, comprehensive solution.
 
 
 ---
 
-This add-on creates a proxy to a EMQX instance running separately from Home Assistant.
+This add-on creates a proxy to a XZG webpage.
 
-_Note: this add-on does not run EMQX itself._
+_Note: this add-on is PROXY ONLY._
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

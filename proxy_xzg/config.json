@@ -15,6 +15,6 @@
     "server": "xgz.local:80"
   },
   "schema": {
-    "server": "match(^.+:\\d+$)"
+    "server": ""
   }
 }

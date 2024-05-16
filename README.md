@@ -7,3 +7,4 @@
 
 ### [EMQX Proxy](./proxy_emqx)
 
+### [XZG Proxy](./proxy_xzg)

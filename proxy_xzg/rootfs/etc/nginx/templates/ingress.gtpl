@@ -1,0 +1,13 @@
+server {
+    listen 80 default_server;
+
+    include /etc/nginx/includes/server_params.conf;
+
+    location / {
+        allow   172.30.32.3;
+        deny    all;
+
+        proxy_pass http://backend;
+
+    }
+}

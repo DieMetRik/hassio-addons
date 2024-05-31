@@ -8,3 +8,5 @@
 ### [EMQX Proxy](./proxy_emqx)
 
 ### [Frigate Proxy](./frigate_proxy)
+
+### [ESPHome Proxy](./esphome_proxy)

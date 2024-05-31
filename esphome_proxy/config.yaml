@@ -1,7 +1,7 @@
 name: ESPHome Proxy
-version: "1.1"
+version: "1.2"
 panel_icon: "mdi:chip"
-panel_title: ESPHome
+panel_title: ESPHome Proxy
 slug: esphome-proxy
 description: Proxy addon for ESPHome
 url: "https://github.com/esphome"

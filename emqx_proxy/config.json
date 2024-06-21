@@ -1,6 +1,6 @@
 {
   "name": "EMQX Proxy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "url": "https://github.com/DieMetRik/hassio-addons",
   "panel_icon": "mdi:pipe",
   "slug": "emqx-proxy",

@@ -1,5 +1,5 @@
 name: go2rtc Proxy
-version: "1.0"
+version: "1.1"
 panel_icon: "mdi:eye"
 panel_title: go2rtc
 slug: go2rtc-proxy
@@ -7,16 +7,16 @@ description: Proxy addon for go2rtc
 url: "https://github.com/AlexxIT/go2rtc/tree/master"
 startup: application
 boot: auto
-webui: "http://[HOST]:[PORT:1984]/"
-watchdog: "http://[HOST]:[PORT:1984]/"
+webui: "http://[HOST]:[PORT:5000]/"
+watchdog: "http://[HOST]:[PORT:5000]/"
 ingress: true
-ingress_port: 1984
+ingress_port: 5000
 ingress_entry: /
 panel_admin: false
 ports:
-  1984/tcp: 1984
+  5000/tcp: 5000
 ports_description:
-  1984/tcp: Web interface (Not required for Hass.io Ingress)
+  5000/tcp: Web interface (Not required for Hass.io Ingress)
 host_network: false
 devices: []
 usb: false
